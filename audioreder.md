@@ -40,3 +40,8 @@ if the above works then ur code will read ur book and u can hear the voice
   
 to know the details of the code look into code comments on python file...
 u can read  any pdf file but it should be in the current location of this folder  ...
+
+this reads only the specific page u insists 
+u can write the text into mp3 by changing this in the code
+
+ speaker.save_to_file(text,'name of mp3 file')
