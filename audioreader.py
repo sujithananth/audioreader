@@ -1,13 +1,11 @@
 import pyttsx3 #pyttsx3 is a python module used to generate   voices  from text
-import PyPDF2  #module used to reads the pdf files
-bookshelf=['pyt.pdf']
-print("the books in bookshelf is :",bookshelf)
-ad=input("do u want to add book to the shelf?  type yes or no :",)
-if (ad=="yes" )or (ad=="YES"):
-    bn=input("enter the name with .pdf :",)
-    bookshelf.append(bn)
-else:
-    print("~~~~~~~~~~~~~~~~~~") 
+import PyPDF2  #module used to reads the pdf file
+print("1.enter the book name u want  with .pdf \n 2.enter 'read'  or  'write'\n read  =  reads  the pdf page \n write = copy text into audio  as .mp3 file \n 3.enter which page to be read or write \n 4.done!!!!!" )
+    
+    
+       
+ 
+   
 bookname=str(input("enter the book name with .pdf:",))
 speaker=pyttsx3.init()
     
