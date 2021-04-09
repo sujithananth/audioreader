@@ -46,7 +46,3 @@ u can write the text into mp3 by changing this in the code
 
  speaker.save_to_file(text,'name of mp3 file')
  
- 
- 
- 
- the end 
